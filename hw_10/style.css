@@ -1,0 +1,142 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px auto;
+    width: 50%;
+    background-color: lightgray;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.todo__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    width: 100%;
+}
+
+.delete__todo, .add__todo {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.delete__todo button, .add__todo button {
+    width: 80%;
+    cursor: pointer;
+    background-color: mediumturquoise;
+    padding: 15px 15px;
+    color: dimgray;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.input__todo {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input__todo input {
+    width: 100%;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-weight: 600;
+}
+
+.input__todo input::placeholder {
+    text-align: center;
+    color: lightgray;
+}
+
+.todos__title {
+    color: dimgray;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+
+.todos__wrapper {
+    width: 100%;
+}
+
+.todos-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    width: 95%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.todos-item.active {
+    background-color: dimgray;
+}
+
+.todos__button_done, .todos__button_delete {
+    width: 50px;
+    height: 35px;
+}
+
+.button__done, .button__delete {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background-color: mediumturquoise;
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: dimgray;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+}
+
+.todos__description {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description__text {
+    width: 90%;
+    border-radius: 5px;
+    text-align: center;
+    color: dimgray;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px 10px;
+    background-color: white;
+}
+
+.todos-item__end {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 50px;
+}
+
+.date {
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+    color: dimgray;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 25px;
+    background-color: white;
+}
+

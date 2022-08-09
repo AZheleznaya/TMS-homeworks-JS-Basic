@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.timer {
+    margin: 100px 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid #4682B4;
+    border-radius: 20px;
+}
+
+.timer__dial {
+    width: 50%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 50px;
+    background-color: #4682B4;
+    gap: 20px
+}
+
+.timer__dial_time {
+    width: 20%;
+    padding: 40px 0;
+    font-size: 70px;
+    color: #FFFFFF;
+}
+
+span {
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-bottom: 15%;
+}
+
+.timer__button {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+.timer__button_start, .timer__button_stop {
+    border-radius: 10px;
+    border: none;
+    font-size: 25px;
+    padding: 15px 25px;
+    color: #FFFFFF;
+    background-color: #4682B4;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.timer__button_start:hover, .timer__button_stop:hover {
+    background-color: #87CEEB;
+}
+
+.timer__button_start.active , .timer__button_stop.active {
+    background-color: #87CEEB;
+}

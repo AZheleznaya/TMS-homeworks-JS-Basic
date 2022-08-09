@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="style.css">
+        <title>Hw-11</title>
+    </head>
+    <body>
+        <div class="container">
+
+            <div class="wrapper__todo">
+                <button id="todo__deleteAll">Delete All</button>
+                <button id="todo__deleteLast">Delete Last</button>
+                <input type="text" id="todo__item" placeholder="Enter todo ..." required>
+                <button id="todo__add">Add</button>
+            </div>
+
+            <div class="wrapper__options">
+                <div class="wrapper__options_counter">
+                    <div class="counter__all">
+                        All:
+                        <span id="all">0</span>
+                    </div>
+                    <div class="counter__completed">
+                        Completed:
+                        <span id="completed">0</span>
+                    </div>
+                </div>
+                <div class="wrapper___options_show">
+                    <button id="show__all">Show All</button>
+                    <button id="show__completed">Show Completed</button>
+                </div>
+                <div class="wrapper__options_search">
+                    <input type="text" id="search__item" placeholder="Search..." required>
+                </div>
+            </div>
+
+            <h2 class="todo__title">MY TODO LIST:</h2>
+
+            <div class="todo__list">
+                <!--                <div class="todo__list_item checked">-->
+                <!--                    <button class="todo__item_done">✓</button>-->
+                <!--                    <span class="todo__item_text">Todo text</span>-->
+                <!--                    <div class="todo__list_block">-->
+                <!--                        <button class="todo__item_delete">X</button>-->
+                <!--                        <span class="todo__item_date">Date</span>-->
+                <!--                    </div>-->
+                <!--                </div>-->
+            </div>
+
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>
